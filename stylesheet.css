@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.fa {
+  margin-right: 5px;
+  float: right;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    background-color: #81b29a;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+
+
+.logo{
+    float: left;
+    width: 90px;
+    padding-right: ;
+    margin-top: 15px;
+    margin-left: 15px;
+
+}
+  
+  .header-left {
+    float: left;
+  }
+
+  
+  
+  .header-right {
+    float: right;
+    text-align: right;
+    
+  }
+
+  .header-left a {
+    line-height: 65px;
+    margin-top: 8px;
+    padding: 0 25px;
+    color: #f1f4de;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    font-size: 16px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    text-align: right;
+    margin-top: 8px;
+    padding: 0 25px;
+    color: #f1f4de;
+    display: block;
+    float: right;
+    transition: all 0.5s;
+    font-size: 16px;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .heading h2{
+    padding: 20px;
+  }
+  
+  .menu-icon {
+    color: #f1f4de;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+  }
+
+  .top-wrapper {
+    padding: 250px 0 100px 0;
+    height: 650px;
+    background-image: url(images/Is-a-Coworking-Space-Right-for-Your-Small-Business_1000x561_041019.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.top-wrapper h1 {
+    text-transform: uppercase;
+    font-size: 32px;
+    color: #3d405b;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+.btn-wrapper {
+    margin: 40px 0;
+}
+.join {
+    background-color: #81b29a;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding: 15px 40px;
+    cursor: pointer;
+    box-shadow: 0 7px teal;
+}
+.join:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.btn {
+    padding: 13px 35px;
+    color: white;
+    display: inline-block;
+    border-radius: 50px;
+}
+.btn:hover {
+    background-color: #e07a5f;
+}
+
+
+.package-wrapper{
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.package {
+  float: left;
+  width: 25%;
+}
+
+.package-icon {
+  position: relative;
+}
+
+.package-icon img{
+  width: 120px;
+}
+
+.package-icon p {
+  position: absolute;
+  padding-top: 15px;
+  top: 44%;
+  width: 100%;
+  color: #81b29a;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #000000;
+}
+
+footer img{
+  width: 124px;
+}
+
+footer p {
+  margin-right: 10px;
+  color: #f1f4de;
+  font-size: 14px;
+}
+
+footer{
+  background-color: #81b29a;
+  height: 150px;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
